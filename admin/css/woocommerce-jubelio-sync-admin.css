@@ -1,0 +1,48 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.ui.pagination.menu {
+    padding: 0;
+}
+img.jb-item-image {
+    max-width: 100px;
+}
+div.dataTables_processing>div:last-child>div {
+    background: rgba(0, 0, 0, 0.5);
+}
+#order-sync-table_wrapper .row.dt-table > .sixteen.wide.column,
+#product-sync-table_wrapper .row.dt-table > .sixteen.wide.column {
+    margin-left: 14px;
+    margin-right: 14px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+#order-sync-table_wrapper.dataTables_wrapper div.dataTables_processing,
+#product-sync-table_wrapper.dataTables_wrapper div.dataTables_processing {
+    position: absolute;
+    top: -14px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    opacity: 0.9;
+    margin-left: 0;
+}
+
+select[name="carbon_fields_compact_input[_jb_default_product_status]"] {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* .sync-product-wr {
+    display: none;
+} */
+
+.item-status-sync-show {
+    display: table-row;
+}
+.item-status-sync-hide {
+    display: none;
+}
